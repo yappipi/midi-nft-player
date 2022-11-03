@@ -1,0 +1,176 @@
+.App {
+  height: 100vh;
+  background-color: #0d1116;
+  overflow: scroll;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  background-color: #0d1116;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  padding-top: 30px;
+}
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: white;
+}
+
+.cta-button {
+  height: 45px;
+  border: 10;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.connect-wallet-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 550px;
+}
+
+.connect-wallet-button {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.control-panel-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 550px;
+}
+
+.content-button {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.content-sub {
+  display: flex;
+}
+
+.cta-sub-button {
+  height: 35px;
+  border: 10;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  margin-left: 12px;
+  margin-top: 8px;
+}
+
+.content-sub-button {
+  background-color: #3fc6de;
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.submit-button {
+  height: 50px;
+  border: 10;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.content-input {
+  width: 300px;
+}
+
+.content-input-name {
+  width: 200px;
+}
+
+.file-name-text {
+  font-size: 15px;
+  color: white;
+}
+
+.content-list-button {
+  margin-top: 10px;
+}
+
+.control-panel-text {
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.control-back-button-text {
+  font-size: 16px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.licence-text {
+  color: white;
+  font-size: 12px;
+}
