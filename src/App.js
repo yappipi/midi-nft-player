@@ -236,6 +236,23 @@ const App = () => {
               Submit
           </button>
         </div>
+
+        <div>
+          <a
+              href="./midi/because.mid"
+              className="sample-midi-text"
+              target="_blank"
+              rel="noreferrer"
+            >sample-midi1</a>
+        </div>
+        <div>
+          <a
+              href="./midi/A_F_NO7_01.mid"
+              className="sample-midi-text"
+              target="_blank"
+              rel="noreferrer"
+            >sample-midi2</a>
+        </div>
       </form>
     );
   }

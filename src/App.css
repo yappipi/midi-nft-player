@@ -133,6 +133,11 @@
   color: white;
 }
 
+.sample-midi-text {
+  font-size: 12px;
+  color: white;
+}
+
 .content-list-button {
   margin-top: 10px;
 }
