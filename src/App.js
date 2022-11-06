@@ -343,7 +343,7 @@ const App = () => {
       <div>
         <p className="control-back-button-text"> Menu へ戻る</p>
         <button
-        className="cta-button content-button"
+        className="back-to-menu-button"
         onClick={backToMenu}
         >
           Back to Menu

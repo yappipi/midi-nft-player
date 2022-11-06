@@ -266,3 +266,23 @@
   background: #fff;
   color: #d90429
 }
+
+.back-to-menu-button {
+  min-width: 130px;
+  height: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #ff0a78;
+  background: #ff0a78;
+}
+.back-to-menu-button:hover {
+  background: #fff;
+  color: #ff0a78
+}
