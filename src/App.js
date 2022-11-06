@@ -305,13 +305,14 @@ const App = () => {
     return (
       _songs.map((_song) => (
         <div 
+          className="play-list-cell"
           key={_song.tokenId} >
           <button
-            className="cta-button content-button content-list-button"
+            className="play-button"
             onClick={playSong(_song.tokenId)}
             key={_song.tokenId}
           >
-            {`Play - id#${_song.tokenId} : ${_song.name}`}
+            {`Play id#${_song.tokenId} : ${_song.name}`}            
           </button>
 
           <form>
@@ -327,7 +328,7 @@ const App = () => {
 
             <button 
               type="button" 
-              className="cta-sub-button content-sub-button"
+              className="transfer-button"
               onClick={transfer(_song.tokenId)}>
                 Transfer
             </button>
@@ -386,7 +387,7 @@ const App = () => {
         case ViewMode.PLAY_LIST:
           return (
             <div className="control-panel-container">
-              <p className="control-panel-text"> 所持 MIDI NFT リスト </p>
+              <p className="control-panel-title"> 所持 MIDI NFT リスト </p>
               { renderSongNFTs() }
               { renderBackButton() }
             </div>          

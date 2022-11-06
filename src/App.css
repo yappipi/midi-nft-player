@@ -220,3 +220,49 @@
   color: white;
   font-size: 12px;
 }
+
+.play-list-cell {
+  padding-top: 20px;
+}
+
+.play-button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #4433ff;
+  background: #4433ff;
+  padding-right: 10px;  
+}
+.play-button:hover {
+  background: #fff;
+  color: #4433ff
+}
+
+.transfer-button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #d90429;
+  background: #d90429;
+  padding-right: 10px;  
+}
+.transfer-button:hover {
+  background: #fff;
+  color: #d90429
+}
