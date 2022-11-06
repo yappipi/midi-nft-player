@@ -40,7 +40,7 @@ Goerli Test Network に接続します。
 
 MIDIファイルを選択し、NFT名を入力後、「Submit」を行います。
 
-![mint](https://user-images.githubusercontent.com/115483245/199991578-06170dbe-743e-404f-b0f4-a74a0ee6da73.png)
+![mint](https://user-images.githubusercontent.com/115483245/200168525-644c18e2-00b4-4d6e-9c73-072c9438bac8.png)
 
 #### サンプルMIDIファイル
 
@@ -53,13 +53,13 @@ MIDIファイルを選択し、NFT名を入力後、「Submit」を行います�
 
 所持 MIDI NFT リスト にて再生するMIDI NFTにて 「Play」を行います。
 
-![play](https://user-images.githubusercontent.com/115483245/199994501-f2668b17-61fc-4984-a8fe-21bdecd54f27.png)
+![play](https://user-images.githubusercontent.com/115483245/200168518-9b059078-0604-48d4-91db-9f85a26dd754.png)
 
 ### MIDI NFT の転送
 
 所持 MIDI NFT リスト にて転送するMIDI NFTにて「送付先Wallet Address」を入力後、「Transfer」を行います。
 
-![transfer](https://user-images.githubusercontent.com/115483245/199995636-3bba5b77-523e-4e09-a8d3-c3bb48afe52c.png)
+![transfer](https://user-images.githubusercontent.com/115483245/200168520-27dfac21-8208-44f6-a7be-0f899b334970.png)
 
 ## 技術スタック
 
