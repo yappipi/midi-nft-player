@@ -1,6 +1,6 @@
 # Web3 MIDI NFT Player
 
-<img src="https://user-images.githubusercontent.com/115483245/200170796-e4208a09-f0d6-423c-946c-83b6059c543e.png" width="200">
+<img src="https://user-images.githubusercontent.com/115483245/200170796-e4208a09-f0d6-423c-946c-83b6059c543e.png" width="550">
 
 ## Web3 MIDI NFT Player について
 
