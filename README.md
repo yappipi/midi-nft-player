@@ -1,5 +1,7 @@
 # Web3 MIDI NFT Player
 
+<img src="https://user-images.githubusercontent.com/115483245/200170796-e4208a09-f0d6-423c-946c-83b6059c543e.png" width="200">
+
 ## Web3 MIDI NFT Player について
 
 Web3 MIDI NFT Player は MIDIファイルそのものをオンチェーン上に NFT として保持し、再生及び他ウォレットへの転送を行うフルオンチェーン MIDI NFT Player の dApp です。
