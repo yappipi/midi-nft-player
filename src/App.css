@@ -306,3 +306,50 @@
   background: #fff;
   color: #4433ff
 }
+
+play-list-root {
+  padding: 0;
+  position: relative;
+}
+
+play-list-cell {
+  color: black;
+  border-left: solid 8px orange;/*左側の線*/
+  background: whitesmoke;/*背景色*/
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+  padding: 0.5em;
+  list-style-type: none!important;
+}
+
+ul {
+  list-style: none;
+}
+  
+span.dan {
+  float: left;
+  margin-left: 30px;
+}
+  
+span.dan2 {
+  display: block;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+ul.song-list, ol.song-list {
+  padding: 0;
+  position: relative;
+}
+
+ul.song-list li, ol.song-list li {
+  color: black;
+  border-left: solid 8px orange;/*左側の線*/
+  background: whitesmoke;/*背景色*/
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+  padding: 0.5em;
+  list-style-type: none!important;
+}

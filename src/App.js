@@ -304,36 +304,46 @@ const App = () => {
   const renderSongNFTs = () => {
     return (
       _songs.map((_song) => (
-        <div 
-          className="play-list-cell"
+        <li 
           key={_song.tokenId} >
-          <button
-            className="play-button"
-            onClick={playSong(_song.tokenId)}
-            key={_song.tokenId}
-          >
-            {`Play id#${_song.tokenId} : ${_song.name}`}            
-          </button>
-
-          <form>
-            <input
-              type="text"
-              className="content-input"
-              placeholder="送付先 Wallet Address を入力してください"
-              onChange={(_event) => {
-                const destAddress = _event.target.value;
-                setDestAddress(destAddress);
-              }}
-            />
-
-            <button 
-              type="button" 
-              className="transfer-button"
-              onClick={transfer(_song.tokenId)}>
-                Transfer
-            </button>
-          </form>
-        </div>
+          <div>
+            <span className="dan">
+              {`${_song.tokenId} : ${_song.name}`}
+            </span>
+            <span className="dan2">
+              <button
+                className="play-button"
+                onClick={playSong(_song.tokenId)}
+                key={_song.tokenId}
+              >
+                Play
+              </button>            
+            </span>
+          </div>
+          <div>
+            <form>
+              <span className="dan">
+                <input
+                    type="text"
+                    className="content-input"
+                    placeholder="送付先 Wallet Address を入力してください"
+                    onChange={(_event) => {
+                      const destAddress = _event.target.value;
+                      setDestAddress(destAddress);
+                    }}
+                />              
+              </span>
+              <span className="dan2">
+                <button 
+                  type="button" 
+                  className="transfer-button"
+                  onClick={transfer(_song.tokenId)}>
+                    Transfer
+                </button>
+              </span>
+            </form>
+          </div>
+        </li>
       ))  
     );
   }
@@ -388,7 +398,9 @@ const App = () => {
           return (
             <div className="control-panel-container">
               <p className="control-panel-title"> 所持 MIDI NFT リスト </p>
-              { renderSongNFTs() }
+                <ul className="song-list">
+                  { renderSongNFTs() }
+                </ul>
               { renderBackButton() }
             </div>          
           );          
