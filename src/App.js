@@ -360,14 +360,14 @@ const App = () => {
             <div className="control-panel-container">
               <p className="control-panel-text"> MIDI ファイルを NFT としてオンチェーンプレイリストに追加する </p>
               <button
-                className="cta-button content-button"
+                className="menu-button"
                 onClick={() => { setViewMode(ViewMode.MINT) }}
               >
                 Mint Song
               </button>
               <p className="control-panel-text"> プレイリストを表示する </p>
               <button
-                className="cta-button content-button"
+                className="menu-button"
                 onClick={getSongsFromChain}
               >
                 Play List
@@ -395,7 +395,7 @@ const App = () => {
       return (
         <div className="connect-wallet-container">
           <button
-            className="cta-button connect-wallet-button"
+            className="connect-wallet-button"
             onClick={connectWallet}
           >
             Connect Wallet
@@ -409,7 +409,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header gradient-text">♬ Web3 MIDI NFT Player ♬</p>
+          <p className="header">Web3 MIDI NFT Player</p>
           <p className="sub-text"> - フルオンチェーン MIDI NFT プレイヤー & Transfer - </p>
           <img src="./music_norinori_man.png" alt="character" width="250" />
           { renderContent() }

@@ -1,13 +1,19 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #43B0A1;
   overflow: scroll;
   text-align: center;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
 }
 
 .container {
   height: 100%;
-  background-color: #0d1116;
+  background-color: #43B0A1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,7 +31,7 @@
 }
 
 .sub-text {
-  font-size: 25px;
+  font-size: 16px;
   color: white;
 }
 
@@ -50,17 +56,24 @@
 }
 
 .connect-wallet-button {
-  background-image: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
-  );
-  background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
+  min-width: 130px;
+  font-size: 20px;
+  height: 60px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #ef233c;
+  box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
+}
+.connect-wallet-button:active {
+  box-shadow: 0 4px 2px -3px #ccc, 0 4px 5px 1px #ccc, 0 2px 7px 1px #ccc;
 }
 
 .control-panel-container {
@@ -68,6 +81,27 @@
   flex-direction: column;
   margin: auto;
   max-width: 550px;
+}
+
+.menu-button {
+  min-width: 130px;
+  font-size: 20px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #ef233c;
+  box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
+}
+.menu-button:active {
+  box-shadow: 0 4px 2px -3px #ccc, 0 4px 5px 1px #ccc, 0 2px 7px 1px #ccc;
 }
 
 .content-button {
@@ -143,8 +177,8 @@
 }
 
 .control-panel-text {
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 20px;
   color: white;
   font-weight: bold;
 }
