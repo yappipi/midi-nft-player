@@ -231,7 +231,7 @@ const App = () => {
 
           <button 
             type="button" 
-            className="submit-button content-sub-button"
+            className="mint-submit-button"
             onClick={submitForm}>
               Submit
           </button>

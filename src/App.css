@@ -286,3 +286,23 @@
   background: #fff;
   color: #ff0a78
 }
+
+.mint-submit-button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #4433ff;
+  background: #4433ff;
+}
+.mint-submit-button:hover {
+  background: #fff;
+  color: #4433ff
+}
