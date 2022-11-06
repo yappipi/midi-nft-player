@@ -159,7 +159,7 @@
 }
 
 .content-input-name {
-  width: 200px;
+  width: 300px;
 }
 
 .file-name-text {
@@ -352,4 +352,30 @@ ul.song-list li, ol.song-list li {
   border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
   padding: 0.5em;
   list-style-type: none!important;
+}
+
+span.mint-dan {
+  float: left;
+  margin-left: 50px;
+}
+
+span.mint-dan2 {
+  display: block;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+span.mint-input-dan {
+  float: left;
+  margin-left: 50px;
+}
+
+span.mint-input-dan2 {
+  display: block;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.sample-midi-root {
+  margin-top: 30px;
 }

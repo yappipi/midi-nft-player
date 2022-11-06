@@ -219,39 +219,43 @@ const App = () => {
           </label>
         </div>
         <div>
-          <input
-            type="text"
-            placeholder="NFT MIDI 名を入力してください"
-            className="content-input-name"
-            onChange={(_event) => {
-              const nftName = _event.target.value;
-              setNFTName(nftName);
-            }}
-          />
-
-          <button 
-            type="button" 
-            className="mint-submit-button"
-            onClick={submitForm}>
-              Submit
-          </button>
+          <span className="mint-dan">
+            <input
+              type="text"
+              placeholder="NFT MIDI 名を入力してください"
+              className="content-input-name"
+              onChange={(_event) => {
+                const nftName = _event.target.value;
+                setNFTName(nftName);
+              }}
+            />
+          </span>
+          <span className="mint-dan2">
+            <button 
+              type="button" 
+              className="mint-submit-button"
+              onClick={submitForm}>
+                Submit
+            </button>
+          </span>
         </div>
-
-        <div>
-          <a
-              href="./midi/because.mid"
-              className="sample-midi-text"
-              target="_blank"
-              rel="noreferrer"
-            >sample-midi1</a>
-        </div>
-        <div>
-          <a
-              href="./midi/A_F_NO7_01.mid"
-              className="sample-midi-text"
-              target="_blank"
-              rel="noreferrer"
-            >sample-midi2</a>
+        <div className="sample-midi-root">
+          <div>
+            <a
+                href="./midi/because.mid"
+                className="sample-midi-text"
+                target="_blank"
+                rel="noreferrer"
+              >sample-midi1</a>
+          </div>
+          <div>
+            <a
+                href="./midi/A_F_NO7_01.mid"
+                className="sample-midi-text"
+                target="_blank"
+                rel="noreferrer"
+              >sample-midi2</a>
+          </div>
         </div>
       </form>
     );
