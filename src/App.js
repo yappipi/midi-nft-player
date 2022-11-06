@@ -377,7 +377,8 @@ const App = () => {
         case ViewMode.MINT:
           return (
             <div className="control-panel-container">
-              <p className="control-panel-text"> MIDI ファイルを選択、NFT名を入力して「Submit」 </p>
+              <p className="control-panel-title">MIDI NFT ミント</p>
+              <p className="control-panel-text">MIDI ファイルを選択、NFT名を入力して「Submit」</p>
               { renderInputForm() }
               { renderBackButton() }
             </div>        
